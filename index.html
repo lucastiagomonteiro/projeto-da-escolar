@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecolife</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <img src="imagens/logo.png" alt="">
+            <nav id="itens">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">doação</a></li>
+                    <li><a href="#">projetos</a></li>
+                    <li><a href="#">contato</a></li>
+                </ul>
+            </nav>
+            <span id="burgue" class="material-icons" onclick="clickMenu()">menu</span>
+    </header>
+    <main>
+        <div class="titulo">
+            <h1> O que é a EcoLife?</h1>
+        </div>
+            <div class="geral">
+                <div class="mensagem-1">
+                    <img src="imagens/reciclagem2.png" alt="">
+                        <div class="organizar-1">
+                            <p> Por um planeta mais limpo...</p>
+                            <h1> REPENSAR REDUZIR <br>REUTILIZAR RECICLAR</h1>
+                            <p> Nossa missão é despertar a consciência ambiental e a mudança de <br> atitude em toda Baixada Santista.</p>
+                        </div>
+                </div>
+                <div class="mensagem-2">
+                    <img src="/imagens/mundo-proximo.jpg" alt="">
+                    <div class="organizar-2">
+                        <h1> QUE <span style="color: green;">MUNDO</span> QUEREMOS DEIXAR <br> PARA OS <span style="color: green;">PRÓXIMOS</span>??</h1>
+                        <p>Lixo Zero é “uma meta ética, econômica, eficiente e visionária para guiar <br>
+                            as pessoas a mudar seus modos de vidas e práticas de forma a incentivar <br>
+                            os ciclos naturais sustentáveis, onde todos os materiais são projetados <br>
+                             para permitir sua recuperação e uso pós-consumo.”</p>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <script>
+
+function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+        function clickMenu () {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+    </script>
+</body>
+</html>
