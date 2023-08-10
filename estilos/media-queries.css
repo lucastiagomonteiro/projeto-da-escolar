@@ -21,12 +21,15 @@
 
 @media screen and (max-width: 768px) {
     nav ul {
-        position: absolute;
         display: block;
-        background-color: rgb(255, 255, 255);
-        width: 200px;
-        height: 200px;
-}
+    }
+
+    nav li {
+        width: 430px;   
+    }
+    .tutu {
+        display: block;
+    }
 
     nav a {
         color: rgb(0, 0, 0);

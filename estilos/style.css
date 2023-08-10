@@ -37,7 +37,7 @@ header a:hover {
 }
 
 .titulo {
-    background-image: url(/imagens/imagem3.jpg);
+    background-image: url("../imagens/imagem3.jpg   ");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -80,7 +80,7 @@ header a:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     margin: auto;
-    background-color: rgb(0, 255, 0);
+
     width: 1000px;
 }
 
