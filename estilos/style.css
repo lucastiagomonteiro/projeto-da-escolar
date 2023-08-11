@@ -2,6 +2,11 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+}
+
+html, body {
+    height: 4000px;
 }
 
 header {
@@ -80,7 +85,6 @@ header a:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     margin: auto;
-
     width: 1000px;
 }
 
@@ -90,4 +94,36 @@ header a:hover {
 
 .organizar-2 {
     padding:  10px 0px 0px 20px;
+}
+
+.vendas {
+    margin: auto;
+    background-image: url(../imagens/pexels-anna-shvets-5217774.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.vendas h1 {
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 20px black;
+    margin-bottom: 310px;
+}
+
+.vendas ul {
+    display: flex;
+}
+
+.vendas img {
+    width: 300px ;
+}
+
+.vendas li {
+    margin: auto;
+    list-style: none;
 }
