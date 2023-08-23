@@ -19,6 +19,7 @@
     }
 }
 
+
 @media screen and (max-width: 768px) {
     nav ul {
         display: block;
@@ -38,5 +39,35 @@
     nav li {
     padding: 10px;
     border : 1px solid rgba(0, 0, 0, 0.377);
+    }
+
+ 
+
+    .produtos ul {
+        display: block;
+    }
+
+    .vendas {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .geral {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1481px) {
+
+    .mensagem-1 img {
+        width: 100%;
+    }
+
+    .mensagem-1 p {
+        padding-bottom:  100px ;
+    }
+    .mensagem-2 img {
+        width: 100%;
     }
 }
