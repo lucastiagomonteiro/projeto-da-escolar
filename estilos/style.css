@@ -5,6 +5,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif    ;
 }
 
+
 html, body {
     height: 4000px;
 }
@@ -108,15 +109,15 @@ header a:hover {
     text-align: center;
     color: white;
     padding-top: 200px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     text-shadow: 2px 2px 20px black;
     margin-bottom: 310px;
 }
 
 .vendas ul {
-    display: flex;
     padding: 10px;
+    margin: auto;
 }
 
 .vendas img {
@@ -124,6 +125,11 @@ header a:hover {
 }
 
 .vendas li {
-    margin: auto;
     list-style: none;
+    padding: 10px;
+}
+
+.produtos {
+    display: flex;
+    
 }
